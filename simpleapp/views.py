@@ -10,4 +10,5 @@ def hello(request):
     #pull data from db
     #Transform data
     #send email and so on
-    return HttpResponse('HelloWorld')
+    #return HttpResponse('HelloWorld')
+    return render(request,'hello.html')
