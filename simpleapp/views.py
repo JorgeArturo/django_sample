@@ -11,4 +11,4 @@ def hello(request):
     #Transform data
     #send email and so on
     #return HttpResponse('HelloWorld')
-    return render(request,'hello.html')
+    return render(request,'hello.html',{'name':'jorge'})
